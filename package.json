@@ -1,0 +1,38 @@
+{
+  "name": "ori",
+  "version": "0.1.0",
+  "description": "Bitcoin multisig mobile wallet",
+  "license": "MIT",
+  "repository": "git://github.com/oriwallet/ori.git",
+  "homepage": "https://github.com/oriwallet/ori",
+  "bugs": {
+    "url": "https://github.com/oriwallet/ori/issues"
+  },
+  "author": "Jonathan Gonzales <rojikkushisutemu@gmail.com>",
+  "keywords": [
+    "bcoin",
+    "bitcoin",
+    "blockchain",
+    "cryptocurrency",
+    "wallet"
+  ],
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "bcurl": "git+https://github.com/bcoin-org/bcurl.git#semver:^0.2.0",
+    "bevent": "git+https://github.com/bcoin-org/bevent.git#semver:~0.1.5",
+    "blgr": "git+https://github.com/bcoin-org/blgr.git#semver:~0.2.0",
+    "bmultisig": "git+https://github.com/bcoin-org/bmultisig.git#semver:~2.0.0-beta.2",
+    "brq": "git+https://github.com/bcoin-org/brq.git#semver:~0.1.8",
+    "bs32": "git+https://github.com/bcoin-org/bs32.git#semver:=0.1.6",
+    "bsert": "git+https://github.com/chjj/bsert.git#semver:~0.0.10",
+    "bweb": "git+https://github.com/bcoin-org/bweb.git#semver:~0.1.10",
+    "react-native": "git+https://github.com/facebook/react-native.git#semver:~0.71.2"
+  },
+  "devDependencies": {
+    "bmocha": "git+https://github.com/bcoin-org/bmocha.git#semver:=2.1.2"
+  },
+  "main": "./lib/index.js"
+}
+
